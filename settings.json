@@ -24,17 +24,13 @@
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "short",
   "extensions.ignoreRecommendations": true,
-
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "never",
-
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  
   "editor.rulers": [100,140],
-  
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -46,49 +42,41 @@
   },
 
   "window.zoomLevel": 0,
-
   "emmet.syntaxProfiles": { "javascript": "jsx", "typescript": "tsx"},
   "emmet.includeLanguages": { "javascript": "javascriptreact","typescript": "typescriptreact"},
-
-  
-  "gitlens.codeLens.recentChange.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.enabled": false,
-
   "git.enableSmartCommit": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "liveshare.featureSet": "insiders",
-
   "typescript.tsserver.log": "verbose",
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "screencastMode.onlyKeyboardShortcuts": true,
+  "editor.renderControlCharacters": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorTheme": "Dracula Soft",
 
-    "editor.renderControlCharacters": true,
-    "tabnine.experimentalAutoImports": true,
-    "workbench.colorTheme": "Dracula Soft",
-
-    "material-icon-theme.folders.associations": {
+  "material-icon-theme.folders.associations": {
       "stories": "Ngrx-actions",
       "types": "Typescript",
-      
+      "templates": "Docs",
+      "components": "React-components",
+      "container": "",
+      "icon": "",
+      "content": "",
   },
-    "material-icon-theme.files.associations": {
+  
+  "material-icon-theme.files.associations": {
       "styles.ts": "Silverstripe",
       "GlobalStyles.ts": "Lua",
       "theme.ts": "Tilt",
       
   },
   "colorize.colorized_colors": [
-
     "BROWSERS_COLORS",
     "HEXA",
     "RGB",
     "HSL"
   ],
   "colorize.languages": [
-
     "css",
     "javascript",
     "typescript",
@@ -102,5 +90,6 @@
     "xml",
     "svg"
   ],
-  "colorize.hide_current_line_decorations":true,
+  "colorize.hide_current_line_decorations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
 }
